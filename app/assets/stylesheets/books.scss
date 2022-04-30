@@ -35,7 +35,17 @@ thead {
     border-color: inherit;
 }
 
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
 
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 h2 {
     display: block;
@@ -45,4 +55,12 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+div  {
+    margin-bottom: 10px;
 }
